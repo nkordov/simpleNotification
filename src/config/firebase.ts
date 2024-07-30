@@ -1,12 +1,12 @@
-import { initializeApp } from 'firebase/app';
+import { initializeApp } from "firebase/app";
 import { getDatabase } from "firebase/database";
 
-const { 
-  FIREBASE_API_KEY, 
-  FIREBASE_AUTH_DOMAIN, 
-  FIREBASE_DATABASE_URL, 
-  FIREBASE_STORAGE_BUCKET, 
-  FIREBASE_MESSAGE_SENDER_ID, 
+const {
+  FIREBASE_API_KEY,
+  FIREBASE_AUTH_DOMAIN,
+  FIREBASE_DATABASE_URL,
+  FIREBASE_STORAGE_BUCKET,
+  FIREBASE_MESSAGE_SENDER_ID,
   FIREBASE_APP_ID,
 } = import.meta.env;
 
